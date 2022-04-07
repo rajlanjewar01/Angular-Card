@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+}
+.card img{
+    width: 165px;
+    height: 192px;
+    margin: auto;
+}
+.card-title{
+    font-size: 17px;
+    line-height: 1.2353641176;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-weight: 600;
+    display: block;
+    color: #474748;
+}
+.card-body span{
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    color: #575758;
+}
+.custom-btn-primary{
+    padding: 4px 14px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #0077ED;
+    color: #fff;
+    font-size: 12px;
+}
+.card-body a{
+    display: block;
+    margin-top: 18px;
+    font-size: 14px;
+    color: #06c;
+}
+.card-body a:hover{
+    text-decoration: underline;
+}

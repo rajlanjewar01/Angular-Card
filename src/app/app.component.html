@@ -1,0 +1,16 @@
+
+      <div class="container">
+        <div class="row mt-4">
+
+          <div class="col-md-4">
+            <app-card 
+            *ngFor = "let post of posts"
+            [title]="post.title"
+            [imageurl]="post.imageurl"
+            [price]="post.price"
+            [description]="post.description"
+            ></app-card>
+          </div>
+
+        </div>
+      </div>
